@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="fi779875.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:l="using:fi779875"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="Root"
+    >
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBlock Text="{l:MyBinding Testing}"/>
+        
+    </Grid>
+</Page>
