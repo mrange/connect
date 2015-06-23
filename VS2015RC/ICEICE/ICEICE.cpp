@@ -5,7 +5,7 @@
 #include <vector>
 
 // Uncomment for a workaround in this specific case
-#define WORKAROUND
+// #define WORKAROUND
 
 namespace
 {
