@@ -41,7 +41,7 @@ namespace
           using stripped_source_type  = strip_type_t<source_type> ;
 #endif
           auto result = stripped_source_type ();
-  
+
           return result;
         };
     };
