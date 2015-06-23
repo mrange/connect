@@ -1,4 +1,5 @@
 #pragma once
 
-#include <stdio.h>
-#include <tchar.h>
+#include <iostream>
+#include <type_traits>
+#include <vector>

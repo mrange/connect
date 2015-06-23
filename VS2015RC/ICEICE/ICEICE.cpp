@@ -38,5 +38,7 @@ int main ()
   auto c = collect ([] (auto && v) {return v;});
   auto r = c (ints);
 
+  std::cout << r << std::endl;
+
   return 0;
 }
